@@ -1,18 +1,17 @@
-import Document, { Main, NextScript } from 'next/document';
-import { CriticalCssHead } from '../components/CriticalCssHead';
+import { NextHeadWithInlineCss } from '../components/NextHeadWithInlineCss';
 
-class ExtendedNextDocument extends Document {
+import Document, { Html, Head, Main, NextScript } from 'next/document'
+
+export default class MyDocument extends Document {
   render() {
     return (
-      <html>
-        <CriticalCssHead />
+      <Html lang="en">
+        <NextHeadWithInlineCss />
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
-    );
+      </Html>
+    )
   }
 }
-
-export default ExtendedNextDocument;
