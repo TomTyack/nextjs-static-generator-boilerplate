@@ -1,10 +1,10 @@
 {
   "name": "next-ts-tailwind",
-  "description": "Next.js 9.3, TypeScript, TailwindCSS, Critical CSS",
+  "description": "Next.js 10, TypeScript, TailwindCSS, Critical CSS",
   "version": "0.0.0",
   "author": "Jamie Mason <jamie@foldleft.io> (https://github.com/JamieMason)",
   "dependencies": {
-    "next": "9.3.0",
+    "next": "latest",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
