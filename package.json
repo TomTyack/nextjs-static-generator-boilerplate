@@ -5,6 +5,7 @@
   "author": "Jamie Mason <jamie@foldleft.io> (https://github.com/JamieMason)",
   "dependencies": {
     "next": "latest",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
@@ -12,10 +13,10 @@
     "@fullhuman/postcss-purgecss": "2.1.0",
     "@types/node": "13.9.0",
     "@types/react": "17.0.3",
+    "next": "latest",
     "postcss-preset-env": "6.7.0",
     "tailwindcss": "^1.5.1",
-    "typescript": "3.8.3",
-    "next": "latest"
+    "typescript": "3.8.3"
   },
   "keywords": [],
   "license": "MIT",
