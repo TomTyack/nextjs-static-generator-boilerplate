@@ -1,7 +1,13 @@
-/* purgecss start ignore */
 .roger {
   font: optional;
 }
+.Example_example__26puF {
+  font: optional;
+  color: blueviolet;
+}
+
+
+
 /**
  * This injects Tailwind's base styles and any base styles registered by
  * plugins.
