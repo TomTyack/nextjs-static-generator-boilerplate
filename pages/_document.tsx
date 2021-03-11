@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <InlineStylesHead />
+        <Head />
         <body>
           <Main />
           <NextScript />
