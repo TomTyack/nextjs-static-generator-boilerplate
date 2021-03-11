@@ -33,7 +33,7 @@ export class NextHeadWithInlineCss extends Head {
 					nonce={this.props.nonce}
 					rel="stylesheet"
 					href={`${assetPrefix}/_next/${file}`}
-					crossOrigin={this.props.crossOrigin || process.crossOrigin}
+					crossOrigin={this.props.crossOrigin}
 				/>
 				);
 
