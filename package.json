@@ -1,11 +1,12 @@
 {
   "name": "next-ts-tailwind",
   "description": "Next.js 10, TypeScript, TailwindCSS, Critical CSS",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Jamie Mason <jamie@foldleft.io> (https://github.com/JamieMason)",
   "dependencies": {
     "@popperjs/core": "^2.9.1",
     "next": "latest",
+    "postcss": "8.1.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1"
@@ -16,7 +17,7 @@
     "@types/react": "17.0.3",
     "next": "latest",
     "postcss-preset-env": "6.7.0",
-    "tailwindcss": "^1.5.1",
+    "tailwindcss": "^2.0.3",
     "typescript": "3.8.3"
   },
   "keywords": [],
